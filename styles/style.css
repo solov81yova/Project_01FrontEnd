@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    max-width: 1420px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 25px;
+    gap: 15px;
+    margin: auto;
+}
+
+.article {
+    position: relative;
+    /* display: flex; */
+    height: 500px;
+    width: 333px;
+    background-size: cover;
+    /* background-position: center; */
+    border-radius: 5px;
+}
+
+.genre {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: yellow;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 10px;
+}
+
+.year {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 44px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name {
+    position: relative;
+    color: yellow;
+    font-size: 18pt;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description {
+    position: relative;
+    color: white;
+    overflow: hidden;
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;  /*отобразить количество строк*/
+            line-clamp: 3;
+    -webkit-box-orient: vertical;
+    bottom: 10px;
+}
+
+.film1 {
+    background-image: linear-gradient(transparent 50%, black 90%), url(../images/11.webp);
+}
+
+.film2 {
+    background-image: linear-gradient(transparent 50%, black 90%), url(../images/club.webp);
+}
+
+.film3 {
+    background-image: linear-gradient(transparent 50%, black 90%), url(../images/forest.webp);
+}
+
+.film4 {
+    background-image: linear-gradient(transparent 50%, black 90%), url(../images/ghost.webp);
+}
+
+.film5 {
+    background-image: linear-gradient(transparent 50%, black 90%), url(../images/greenmile.webp);
+}
+
+.film6 {
+    background-image: linear-gradient(transparent 50%, black 90%), url(../images/shawshank.webp);
+}
